@@ -1,0 +1,30 @@
+name       : user-manager
+version    : 5.9.5
+release    : 1
+source     :
+    - https://download.kde.org/stable/plasma/5.9.5/user-manager-5.9.5.tar.xz : b6779666a2adc0066e06c3fd894f215fb39163b3b9a58fa53e7a9b3d14b3d914
+license    : GPL-2.0
+component  : desktop.kde.core
+summary    : A simple system settings module to manage the users of your system.
+description: |
+    A simple system settings module to manage the users of your system.
+builddeps  :
+    - pkgconfig(gl)
+    - pkgconfig(pwquality)
+    - pkgconfig(Qt5Core)
+    - extra-cmake-modules
+    - kauth-devel
+    - kcmutils-devel
+    - kconfig-devel
+    - kconfigwidgets-devel
+    - kcoreaddons-devel
+    - kiconthemes-devel
+    - ki18n-devel
+    - kio-devel
+    - kwidgetsaddons-devel
+setup      : |
+    %cmake .
+build      : |
+    %make
+install    : |
+    %make_install
