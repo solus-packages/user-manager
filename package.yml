@@ -1,8 +1,8 @@
 name       : user-manager
-version    : 5.11.1
-release    : 5
+version    : 5.11.2
+release    : 6
 source     :
-    - https://cdn.download.kde.org/stable/plasma/5.11.1/user-manager-5.11.1.tar.xz : f552cc895a8d36ad01fc8ed7925deeafd68ff6612bc0a5eb4956d2d150e5e5c7
+    - https://cdn.download.kde.org/stable/plasma/5.11.2/user-manager-5.11.2.tar.xz : 99c4076a68b756db0841740b6afc5fac35c6712ec216830728489b232284dedf
 license    : GPL-2.0
 component  : desktop.kde.core
 summary    : A simple system settings module to manage the users of your system.
