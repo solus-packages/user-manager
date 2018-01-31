@@ -1,6 +1,6 @@
 name       : user-manager
 version    : 5.11.5
-release    : 9
+release    : 10
 source     :
     - https://cdn.download.kde.org/stable/plasma/5.11.5/user-manager-5.11.5.tar.xz : 449f648eee7124687432ad71d510cd2eefe59ee7b2d4653ef9cc64f1422098e4
 license    : GPL-2.0
@@ -23,6 +23,8 @@ builddeps  :
     - ki18n-devel
     - kio-devel
     - kwidgetsaddons-devel
+rundeps    :
+    - accountsservice
 setup      : |
     %cmake .
 build      : |
