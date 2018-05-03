@@ -1,8 +1,8 @@
 name       : user-manager
-version    : 5.12.4
-release    : 15
+version    : 5.12.5
+release    : 16
 source     :
-    - https://cdn.download.kde.org/stable/plasma/5.12.4/user-manager-5.12.4.tar.xz : 959af1859aaa8fdcd853ebae78d2b8a15e6700ca340c0ed3bd041315382524f8
+    - https://cdn.download.kde.org/stable/plasma/5.12.5/user-manager-5.12.5.tar.xz : 200008fb88bef2b9555073fc290d86c7adc5ba9953b0c6a77e0238c317d3c694
 license    : GPL-2.0
 component  : desktop.kde.core
 optimize   : lto
@@ -26,8 +26,8 @@ builddeps  :
 rundeps    :
     - accountsservice
 setup      : |
-    %cmake .
+    %cmake_ninja
 build      : |
-    %make
+    %ninja_build
 install    : |
-    %make_install
+    %ninja_install
