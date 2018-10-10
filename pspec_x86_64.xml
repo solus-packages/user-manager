@@ -40,6 +40,7 @@
             <Path fileType="localedata">/usr/share/locale/he/LC_MESSAGES/user_manager.mo</Path>
             <Path fileType="localedata">/usr/share/locale/hu/LC_MESSAGES/user_manager.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ia/LC_MESSAGES/user_manager.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/id/LC_MESSAGES/user_manager.mo</Path>
             <Path fileType="localedata">/usr/share/locale/it/LC_MESSAGES/user_manager.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ja/LC_MESSAGES/user_manager.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ko/LC_MESSAGES/user_manager.mo</Path>
@@ -95,9 +96,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="22">
-            <Date>2018-09-05</Date>
-            <Version>5.13.5</Version>
+        <Update release="24">
+            <Date>2018-10-10</Date>
+            <Version>5.14.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Peter O&apos;Connor</Name>
             <Email>peter@solus-project.com</Email>
