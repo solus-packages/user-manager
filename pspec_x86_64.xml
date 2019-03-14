@@ -2,8 +2,8 @@
     <Source>
         <Name>user-manager</Name>
         <Packager>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>F. von Gellhorn</Name>
+            <Email>flinux@vongellhorn.ch</Email>
         </Packager>
         <License>GPL-2.0</License>
         <PartOf>desktop.kde.core</PartOf>
@@ -22,7 +22,6 @@
             <Path fileType="library">/usr/lib64/qt5/plugins/user_manager.so</Path>
             <Path fileType="data">/usr/share/kservices5/user_manager.desktop</Path>
             <Path fileType="localedata">/usr/share/locale/ar/LC_MESSAGES/user_manager.mo</Path>
-            <Path fileType="localedata">/usr/share/locale/ast/LC_MESSAGES/user_manager.mo</Path>
             <Path fileType="localedata">/usr/share/locale/bs/LC_MESSAGES/user_manager.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ca/LC_MESSAGES/user_manager.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ca@valencia/LC_MESSAGES/user_manager.mo</Path>
@@ -93,15 +92,16 @@
             <Path fileType="data">/usr/share/user-manager/avatars/konqui/Logger.png</Path>
             <Path fileType="data">/usr/share/user-manager/avatars/konqui/Parley.png</Path>
             <Path fileType="data">/usr/share/user-manager/avatars/konqui/Rekonqui.png</Path>
+            <Path fileType="data">/usr/share/xdg/user-manager.categories</Path>
         </Files>
     </Package>
     <History>
-        <Update release="29">
-            <Date>2019-01-14</Date>
-            <Version>5.14.5</Version>
+        <Update release="30">
+            <Date>2019-03-11</Date>
+            <Version>5.15.2</Version>
             <Comment>Packaging update</Comment>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>F. von Gellhorn</Name>
+            <Email>flinux@vongellhorn.ch</Email>
         </Update>
     </History>
 </PISI>
