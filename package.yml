@@ -1,8 +1,8 @@
 name       : user-manager
-version    : 5.16.0
-release    : 34
+version    : 5.16.1
+release    : 35
 source     :
-    - https://cdn.download.kde.org/stable/plasma/5.16.0/user-manager-5.16.0.tar.xz : fc0448c62c76baaa43df8acb216fbae3a97d3fe0378eba848142afc24ff65f82
+    - https://download.kde.org/stable/plasma/5.16.1/user-manager-5.16.1.tar.xz : 4411d1c31b39765441950cd8a8c9cf41f46320c051f6d346149415c0ad000f6e
 license    : GPL-2.0
 component  : desktop.kde.core
 optimize   : lto
