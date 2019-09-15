@@ -1,8 +1,8 @@
 name       : user-manager
-version    : 5.16.4
-release    : 38
+version    : 5.16.5
+release    : 39
 source     :
-    - https://cdn.download.kde.org/stable/plasma/5.16.4/user-manager-5.16.4.tar.xz : 3dd29a6abf8c15014ed87a448b13190516e16d8dc3a67d56f05f62d1f2e1b745
+    - https://cdn.download.kde.org/stable/plasma/5.16.5/user-manager-5.16.5.tar.xz : e9df3ec2718de68b0b46d0b86f993fe450b236e13dda6219f350121f08f4c468
 license    : GPL-2.0
 component  : desktop.kde.core
 optimize   : lto
@@ -15,7 +15,6 @@ builddeps  :
     - extra-cmake-modules
     - kauth-devel
     - kcmutils-devel
-    - kconfig-devel
     - kconfigwidgets-devel
     - kcoreaddons-devel
     - kiconthemes-devel
