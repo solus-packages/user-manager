@@ -1,8 +1,8 @@
 name       : user-manager
-version    : 5.17.5
-release    : 44
+version    : 5.18.1
+release    : 45
 source     :
-    - https://cdn.download.kde.org/stable/plasma/5.17.5/user-manager-5.17.5.tar.xz : 10ed3196063c7dfed3b3f25dd199a48ca39fa86db5d0126ec84a543b1c212f0d
+    - https://cdn.download.kde.org/stable/plasma/5.18.1/user-manager-5.18.1.tar.xz : 605958201e4fc8a7a2dafdf02894acfbd8359c388bf466c54a603634b883825d
 homepage   : https://www.kde.org/workspaces/plasmadesktop/
 license    : GPL-2.0
 component  : desktop.kde.core
@@ -18,7 +18,6 @@ builddeps  :
     - kcmutils-devel
     - kconfigwidgets-devel
     - kcoreaddons-devel
-    - kiconthemes-devel
     - ki18n-devel
     - kio-devel
     - kwidgetsaddons-devel

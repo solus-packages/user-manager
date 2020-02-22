@@ -23,6 +23,7 @@
             <Path fileType="library">/usr/lib64/qt5/plugins/user_manager.so</Path>
             <Path fileType="data">/usr/share/kservices5/user_manager.desktop</Path>
             <Path fileType="localedata">/usr/share/locale/ar/LC_MESSAGES/user_manager.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ast/LC_MESSAGES/user_manager.mo</Path>
             <Path fileType="localedata">/usr/share/locale/bg/LC_MESSAGES/user_manager.mo</Path>
             <Path fileType="localedata">/usr/share/locale/bs/LC_MESSAGES/user_manager.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ca/LC_MESSAGES/user_manager.mo</Path>
@@ -63,6 +64,7 @@
             <Path fileType="localedata">/usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/user_manager.mo</Path>
             <Path fileType="localedata">/usr/share/locale/sr@latin/LC_MESSAGES/user_manager.mo</Path>
             <Path fileType="localedata">/usr/share/locale/sv/LC_MESSAGES/user_manager.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/tg/LC_MESSAGES/user_manager.mo</Path>
             <Path fileType="localedata">/usr/share/locale/tr/LC_MESSAGES/user_manager.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ug/LC_MESSAGES/user_manager.mo</Path>
             <Path fileType="localedata">/usr/share/locale/uk/LC_MESSAGES/user_manager.mo</Path>
@@ -95,9 +97,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="44">
-            <Date>2020-01-09</Date>
-            <Version>5.17.5</Version>
+        <Update release="45">
+            <Date>2020-02-18</Date>
+            <Version>5.18.1</Version>
             <Comment>Packaging update</Comment>
             <Name>F. von Gellhorn</Name>
             <Email>flinux@vongellhorn.ch</Email>
