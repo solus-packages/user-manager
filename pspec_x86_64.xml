@@ -72,9 +72,7 @@
             <Path fileType="localedata">/usr/share/locale/zh_TW/LC_MESSAGES/user_manager.mo</Path>
             <Path fileType="data">/usr/share/qlogging-categories5/user-manager.categories</Path>
             <Path fileType="data">/usr/share/user-manager/avatars/circles/Cat.png</Path>
-            <Path fileType="data">/usr/share/user-manager/avatars/circles/Female.png</Path>
             <Path fileType="data">/usr/share/user-manager/avatars/circles/Konqi.png</Path>
-            <Path fileType="data">/usr/share/user-manager/avatars/circles/Male.png</Path>
             <Path fileType="data">/usr/share/user-manager/avatars/circles/Penguin.png</Path>
             <Path fileType="data">/usr/share/user-manager/avatars/circles/Zebra.png</Path>
             <Path fileType="data">/usr/share/user-manager/avatars/konqui/Artist Konqi.png</Path>
@@ -94,12 +92,32 @@
             <Path fileType="data">/usr/share/user-manager/avatars/konqui/Scientist Konqi.png</Path>
             <Path fileType="data">/usr/share/user-manager/avatars/konqui/Teacher Konqi.png</Path>
             <Path fileType="data">/usr/share/user-manager/avatars/konqui/Virtual Reality Konqi.png</Path>
+            <Path fileType="data">/usr/share/user-manager/avatars/photos/Air Balloon.png</Path>
+            <Path fileType="data">/usr/share/user-manager/avatars/photos/Astronaut.png</Path>
+            <Path fileType="data">/usr/share/user-manager/avatars/photos/Books.png</Path>
+            <Path fileType="data">/usr/share/user-manager/avatars/photos/Brushes.png</Path>
+            <Path fileType="data">/usr/share/user-manager/avatars/photos/Bulb.png</Path>
+            <Path fileType="data">/usr/share/user-manager/avatars/photos/Car.png</Path>
+            <Path fileType="data">/usr/share/user-manager/avatars/photos/Cat.png</Path>
+            <Path fileType="data">/usr/share/user-manager/avatars/photos/Chameleon.png</Path>
+            <Path fileType="data">/usr/share/user-manager/avatars/photos/Cocktail.png</Path>
+            <Path fileType="data">/usr/share/user-manager/avatars/photos/Dog.png</Path>
+            <Path fileType="data">/usr/share/user-manager/avatars/photos/Fish.png</Path>
+            <Path fileType="data">/usr/share/user-manager/avatars/photos/Gamepad.png</Path>
+            <Path fileType="data">/usr/share/user-manager/avatars/photos/Owl.png</Path>
+            <Path fileType="data">/usr/share/user-manager/avatars/photos/Pancakes.png</Path>
+            <Path fileType="data">/usr/share/user-manager/avatars/photos/Parrot.png</Path>
+            <Path fileType="data">/usr/share/user-manager/avatars/photos/Pencils.png</Path>
+            <Path fileType="data">/usr/share/user-manager/avatars/photos/Shuttle.png</Path>
+            <Path fileType="data">/usr/share/user-manager/avatars/photos/Soccer.png</Path>
+            <Path fileType="data">/usr/share/user-manager/avatars/photos/Sunflower.png</Path>
+            <Path fileType="data">/usr/share/user-manager/avatars/photos/Sushi.png</Path>
         </Files>
     </Package>
     <History>
-        <Update release="49">
-            <Date>2020-05-09</Date>
-            <Version>5.18.5</Version>
+        <Update release="50">
+            <Date>2020-06-28</Date>
+            <Version>5.19.2</Version>
             <Comment>Packaging update</Comment>
             <Name>F. von Gellhorn</Name>
             <Email>flinux@vongellhorn.ch</Email>
