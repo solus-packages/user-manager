@@ -1,8 +1,8 @@
 name       : user-manager
-version    : 5.19.3
-release    : 51
+version    : 5.19.4
+release    : 52
 source     :
-    - https://cdn.download.kde.org/stable/plasma/5.19.3/user-manager-5.19.3.tar.xz : 7e0ac9b696941ce394bc88e68c1fc09ce30e044940c2ff421cc95fa2592091ac
+    - https://cdn.download.kde.org/stable/plasma/5.19.4/user-manager-5.19.4.tar.xz : 40e858e683c481e49cc087a69d8fa4fde4f79b2cdd61bddeac9a02fb5795f45e
 homepage   : https://www.kde.org/workspaces/plasmadesktop/
 license    : GPL-2.0
 component  : desktop.kde.core
